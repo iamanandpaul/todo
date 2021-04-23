@@ -6,7 +6,7 @@
   border-radius: 10px;
   padding: 20px;
   margin: 10vh auto;
-  width: 300px;
+  width: 250px;
   overflow: scroll;
   background-color: #2c4c7f;
 }
@@ -29,7 +29,7 @@
   justify-content: center;
   margin-bottom: 20px;
   border-radius: 5px;
-  width: 280px;
+  width: 250px;
   background-color: white;
   color: black;
 }
@@ -41,6 +41,7 @@
   border: none;
   width: 100%;
   text-transform: capitalize;
+  font-size: 15px;
 }
 
 .todo__delete {
@@ -49,7 +50,7 @@
   align-items: center;
   margin-bottom: 20px;
   border-radius: 5px;
-  width: 280px;
+  width: 250px;
   height: 30px;
   background-color: #3598e4;
   margin-bottom: 8px;
