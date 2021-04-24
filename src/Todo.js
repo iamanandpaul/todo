@@ -51,6 +51,11 @@ const Todo = () => {
           placeholder="Title..."
           value={inputData}
           onChange={(e) => setInputData(e.target.value)}
+          onKeyPress={(e) => {
+            if (e.key === "Enter") {
+              addItem();
+            }
+          }}
         />
         <Tooltip title="Add Item">
           <AddIcon className="todo__aIcon" onClick={addItem} />
